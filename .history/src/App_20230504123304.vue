@@ -82,6 +82,7 @@
       <option value="option2">Option 2</option>
     </select>
 
+<div class="form-row">
 <div class="checkbox-wrapper">
   <input type="checkbox">
   <label for="e911">Bypass E911 Address Automation</label>
@@ -89,7 +90,7 @@
 
 <div class="warning-box">
   By checking, "Bypass E911 Address Automation" you agree to manually add this phone number and address to bandwidth
-</div>
+</div></div>
     <button type="submit" class="button-primary">Provision</button>
   </form>
 </template>

@@ -14,18 +14,7 @@ header {
     margin: 0 auto;
     max-width: 1000px;
   }
-
-  .form-row {
-    display: flex;
-    flex-wrap: wrap;
-  }
   
-  .form-row .form-group {
-    /* width: calc(50% - 10px); */
-    margin-right: 20px;
-  }
-  
-
   label {
     display: block;
     font-weight: bold;
@@ -35,48 +24,13 @@ header {
   input[type="text"],
   input[type="password"],
   select {
-    box-sizing: border-box; /* add this line */
     background-color: #dde7f4;
     width: 100%;
     padding: 10px;
     border: none;
-    border-radius: 10px;
+     border-radius: 10px; */
     margin-bottom: 20px;
     box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
-  }
-
-  input[type="text"].inline {
-    display: inline-block;
-    /* width: calc(50% - 10px); */
-    margin-right: 20px;
-  }
-  
-  .form-group {
-    flex-grow: 1;
-    margin-right: 20px;
-  }
-
-
-.checkbox-wrapper,
-.warning-box {
-  flex-basis: 30%;
-}
-  .checkbox-wrapper {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .checkbox-wrapper input[type="checkbox"] {
-    margin-right: 10px;
-  }
-
-  .warning-box {
-    border: 1px solid orange; 
-    color: orange;
-    padding: 10px;
-    margin-bottom: 20px;
-    text-align: center;
   }
   
   button[type="submit"] {
@@ -87,9 +41,6 @@ header {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    display: flex;
-    justify-content: flex-end;
-    
   }
   
   @media (min-width: 1024px) {

@@ -8,29 +8,25 @@
   <header>
     <h1>Voice Provisioning</h1>
   </header>
-      <div class="form-group">
-        <!-- <label for="partner">Select a partner:</label> -->
-        <select id="partner" name="partner" placeholder="Select a Partner">
-          <option value="Sprout">Select a Partner</option>
+     
+        <label for="partner">Select a partner:</label>
+        <select id="partner" name="partner">
+          <option value="Sprout">Sprout</option>
           <option value="option2">Option 2</option>
         </select>
-      </div>
 
       <div class="form-group">
         <input type="text" id="accountNum" name="accountNum" placeholder="Account Number">
       </div>
 
-    <div class="form-row">
       <div class="form-group">
-        <input type="text" id="firstName" name="firstName" placeholder="First Name" class="inline">
+        <input type="text" id="firstName" name="firstName" placeholder="First Name">
       </div>
 
       <div class="form-group">
-        <input type="text" id="lastName" name="lastName" placeholder="Last Name" class="inline">
+        <input type="text" id="lastName" name="lastName" placeholder="Last Name">
       </div>
-    </div>
 
-    <div class="form-row">
       <div class="form-group">
         <input type="text" id="address" name="address" placeholder="Address">
       </div>
@@ -46,9 +42,7 @@
       <div class="form-group">
         <input type="text" id="zip" name="zip" placeholder="Zip">
       </div>
-    </div>
 
-    <div class="form-row">
       <div class="form-group">
         <input type="text" id="contactPhone" name="contactPhone" placeholder="Contact Phone">
       </div>
@@ -56,13 +50,11 @@
       <div class="form-group">
         <input type="text" id="contactEmail" name="contactEmail" placeholder="Contact Email">
       </div>
-    </div>
 
-    <div class="form-row">
       <div class="form-group">
-        <!-- <label for="customerType">Customer Type:</label> -->
+        <label for="customerType">Customer Type:</label>
         <select id="customerType" name="customerType">
-          <option value="Sprout">Customer Type</option>
+          <option value="Sprout">Sprout</option>
           <option value="option2">Option 2</option>
         </select>
       </div>
@@ -74,22 +66,19 @@
       <div class="form-group">
         <input type="password" id="sipPassword" name="sipPassword" placeholder="SIP password">
       </div>
-    </div>
 
-    <!-- <label for="ported">Ported</label> -->
-     <select id="ported" name="ported"> 
-      <option value="">Ported</option>
+
+    <label for="ported">Ported</label>
+    <select id="ported" name="ported">
+      <option value=""></option>
       <option value="option2">Option 2</option>
     </select>
 
-<div class="checkbox-wrapper">
-  <input type="checkbox">
-  <label for="e911">Bypass E911 Address Automation</label>
-</div>
+    <label>
+      <input type="checkbox" >
+      Bypass E911 Address Automation
+    </label>
 
-<div class="warning-box">
-  By checking, "Bypass E911 Address Automation" you agree to manually add this phone number and address to bandwidth
-</div>
-    <button type="submit" class="button-primary">Provision</button>
+    <button type="submit">Provision</button>
   </form>
 </template>

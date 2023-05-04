@@ -55,29 +55,6 @@ header {
     flex-grow: 1;
     margin-right: 20px;
   }
-
-
-.checkbox-wrapper,
-.warning-box {
-  flex-basis: 30%;
-}
-  .checkbox-wrapper {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .checkbox-wrapper input[type="checkbox"] {
-    margin-right: 10px;
-  }
-
-  .warning-box {
-    border: 1px solid orange; 
-    color: orange;
-    padding: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
   
   button[type="submit"] {
     background-color: #165cbe;
@@ -87,9 +64,6 @@ header {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    display: flex;
-    justify-content: flex-end;
-    
   }
   
   @media (min-width: 1024px) {

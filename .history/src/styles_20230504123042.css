@@ -56,11 +56,6 @@ header {
     margin-right: 20px;
   }
 
-
-.checkbox-wrapper,
-.warning-box {
-  flex-basis: 30%;
-}
   .checkbox-wrapper {
     display: flex;
     align-items: center;
@@ -72,8 +67,8 @@ header {
   }
 
   .warning-box {
-    border: 1px solid orange; 
-    color: orange;
+    
+    color: orangewhite;
     padding: 10px;
     margin-bottom: 20px;
     text-align: center;
