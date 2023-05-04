@@ -1,0 +1,113 @@
+<template>
+
+<header>
+  <h1>Voice Provisioning</h1>
+</header>
+
+<form>
+      <div class="form-group">
+        <label for="partner">Select a partner:</label>
+        <select id="partner" name="partner">
+          <option value="Sprout">Sprout</option>
+          <option value="option2">Option 2</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="accountNum"></label>
+        <input type="text" id="accountNum" name="accountNum" placeholder="Enter account number">
+      </div>
+
+      <div class="form-group">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter first name">
+      </div>
+
+      <div class="form-group">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Enter last name">
+      </div>
+
+      <div class="form-group">
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" placeholder="Enter address">
+      </div>
+
+      <div class="form-group">
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" placeholder="Enter city">
+      </div>
+
+      <div class="form-group">
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" placeholder="Enter state">
+      </div>
+
+      <div class="form-group">
+        <label for="zip">Zip:</label>
+        <input type="text" id="zip" name="zip" placeholder="Enter zip code">
+      </div>
+
+      <div class="form-group">
+        <label for="contactPhone">Contact Phone:</label>
+        <input type="text" id="contactPhone" name="contactPhone" placeholder="Enter contact phone number">
+      </div>
+
+      <div class="form-group">
+        <label for="contactEmail">Contact Email:</label>
+        <input type="text" id="contactEmail" name="contactEmail" placeholder="Enter contact email">
+      </div>
+
+      <div class="form-group">
+        <label for="customerType">Customer Type:</label>
+        <select id="customerType" name="customerType">
+          <option value="Sprout">Sprout</option>
+          <option value="option2">Option 2</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="phoneToProv">Phone Number to Provision:</label>
+        <input type="text" id="phoneToProv" name="phoneToProv" placeholder="Enter phone number to provision">
+      </div>
+
+      <div class="form-group">
+        <label for="sipPassword">Sip Password:</label>
+        <input type="text" id="sipPassword" name="sipPassword" placeholder="Enter SIP password">
+      </div>
+
+
+    <label for="ported">Ported</label>
+    <select id="ported" name="ported">
+      <option value=""></option>
+      <option value="option2">Option 2</option>
+    </select>
+
+    <label>
+      <input type="checkbox" >
+      Bypass E911 Address Automation
+    </label>
+
+    <button type="submit">Provision</button>
+  </form>
+</template>
+
+<style>
+@media (min-width: 1024px) {
+  header {
+    display: flex;
+    place-items: center;
+    padding-right: calc(var(--section-gap) / 2);
+  }
+
+  .logo {
+    margin: 0 2rem 0 0;
+  }
+
+  header .wrapper {
+    display: flex;
+    place-items: flex-start;
+    flex-wrap: wrap;
+  }
+}
+</style>

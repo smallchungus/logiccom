@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+  }
+
+  form {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6"><path d="M0 0l6 6 6-6z"/></svg>') no-repeat;
+    background-position: calc(100% - 10px) center;
+    background-size: 8px 8px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  This will style your forms with a light blue background color, rounded corners, and a slight box shadow. The labels will be displayed in bold and have a margin at the bottom. The input fields and select boxes will be styled with a light blue background color, rounded corners, and a box shadow. The select boxes will also have a custom dropdown arrow. The submit button will be styled with a green background color and white text.
+  
+  To apply this style to your form, add the CSS code to your styles.css file and make sure to link it to your Vue.js application as explained earlier.
+  
+  
+  
+  
+  
+  
+  
+
+@media (min-width: 1024px) {
+  header {
+    display: flex;
+    place-items: center;
+    padding-right: calc(var(--section-gap) / 2);
+  }
+
+  .logo {
+    margin: 0 2rem 0 0;
+  }
+
+  header .wrapper {
+    display: flex;
+    place-items: flex-start;
+    flex-wrap: wrap;
+  }
+}

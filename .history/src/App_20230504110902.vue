@@ -1,7 +1,5 @@
-<style src="./styles.css"></style>
-
-
 <template>
+
 <header>
   <h1>Voice Provisioning</h1>
 </header>
@@ -20,35 +18,37 @@
       </div>
 
       <div class="form-group">
-        <input type="text" id="firstName" name="firstName" placeholder="First Name">
+        <input type="text" id="firstName" name="firstName" placeholder="First name">
       </div>
 
       <div class="form-group">
-        <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+        <input type="text" id="lastName" name="lastName" placeholder="Enter last name">
       </div>
 
       <div class="form-group">
-        <input type="text" id="address" name="address" placeholder="Address">
+        <input type="text" id="address" name="address" placeholder="Enter address">
       </div>
 
       <div class="form-group">
-        <input type="text" id="city" name="city" placeholder="City">
+        <input type="text" id="city" name="city" placeholder="Enter city">
       </div>
 
       <div class="form-group">
-        <input type="text" id="state" name="state" placeholder="State">
+        <input type="text" id="state" name="state" placeholder="Enter state">
       </div>
 
       <div class="form-group">
-        <input type="text" id="zip" name="zip" placeholder="Zip">
+        <input type="text" id="zip" name="zip" placeholder="Enter zip code">
       </div>
 
       <div class="form-group">
-        <input type="text" id="contactPhone" name="contactPhone" placeholder="Contact Phone">
+        <label for="contactPhone">Contact Phone:</label>
+        <input type="text" id="contactPhone" name="contactPhone" placeholder="Enter contact phone number">
       </div>
 
       <div class="form-group">
-        <input type="text" id="contactEmail" name="contactEmail" placeholder="Contact Email">
+        <label for="contactEmail">Contact Email:</label>
+        <input type="text" id="contactEmail" name="contactEmail" placeholder="Enter contact email">
       </div>
 
       <div class="form-group">
@@ -60,11 +60,13 @@
       </div>
 
       <div class="form-group">
-        <input type="text" id="phoneToProv" name="phoneToProv" placeholder="Phone number to provision">
+        <label for="phoneToProv">Phone Number to Provision:</label>
+        <input type="text" id="phoneToProv" name="phoneToProv" placeholder="Enter phone number to provision">
       </div>
 
       <div class="form-group">
-        <input type="password" id="sipPassword" name="sipPassword" placeholder="SIP password">
+        <label for="sipPassword">Sip Password:</label>
+        <input type="text" id="sipPassword" name="sipPassword" placeholder="Enter SIP password">
       </div>
 
 
@@ -82,3 +84,23 @@
     <button type="submit">Provision</button>
   </form>
 </template>
+
+<style>
+@media (min-width: 1024px) {
+  header {
+    display: flex;
+    place-items: center;
+    padding-right: calc(var(--section-gap) / 2);
+  }
+
+  .logo {
+    margin: 0 2rem 0 0;
+  }
+
+  header .wrapper {
+    display: flex;
+    place-items: flex-start;
+    flex-wrap: wrap;
+  }
+}
+</style>
